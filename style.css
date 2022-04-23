@@ -1,0 +1,124 @@
+*{
+  margain:0; padding:0;
+  font-style: 'Normal'; font-stretch: 'Normal';
+
+}
+body{
+  padding:20px 7%;
+  background-color: #EEDEDC;
+}
+.container{
+  padding: 15%;
+  text-align: center;
+  
+}
+.inline{
+  height:200px;
+  display: inline-block;
+}
+#artworks{
+  display: grid;
+ grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+#artworks a {
+  background-color: none;
+  font-size: 1.7rem;
+  font-family: 'AmasisMedium';
+  letter-spacing: .5px;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  margin: 2rem 0 0 0;
+  color: #420000;
+}
+#logo{
+  color:#A67A76;
+}
+h1{
+  font-family: 'TellumoLight';
+  font-size: 3rem;
+color:#A67A76;
+}
+h3{
+  font-family: 'TellumoRegular';
+  font-size: .9rem;
+  color:#312525;
+  line-height:0.5rem;
+  margin: 2rem 0 0 0;
+  letter-spacing: .2px;
+}
+h4{
+  font-family: 'TellumoRegular';
+  font-size: .9rem;
+  color:#312525;
+  
+  margin: 0.5rem 0 ;
+  letter-spacing: .2px;
+}
+p{
+  font-family: 'TellumoLight';
+  font-size: .9rem;
+  color:#312525;
+  line-height: 24px;
+}
+a{
+  color: #565252;
+  text-decoration: none;
+
+}
+.cap{
+  text-transform: capitalize;
+}
+.tag{
+  background-color:#A67A76;
+  border-radius: 33%;
+  padding: .5rem;
+  width: 500px;
+}
+footer a{
+  text-transform: italic;
+}
+.card{
+  /*div of each artwork*/
+  left:auto;
+  text-align: justfy-all;
+  background-color:#F5F5F4;
+  padding: 4rem 3rem;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px #c8b8b7;
+  vertical-align: middle;
+  width: auto;
+}
+.wrapper{
+  max-width: 100%;
+  max-height:400px;
+  margin-right: auto; 
+  margin-left:  auto; 
+  overflow: hidden;
+ 
+}
+.wrapper img{
+  width: 100%;
+  height: auto;
+  display: block;
+  padding:0;
+  margin:0;
+   object-position: center;
+  
+}
+footer{
+
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+footer p{
+  font-family: 'TellumoLight';
+  font-size: .8rem;
+  text-align: center;
+  line-height: 1rem;
+
+}
